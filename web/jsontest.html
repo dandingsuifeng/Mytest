@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+</head>
+<body>
+<p>
+    Name:<span id="jname"></span><br/>
+    Age :<span id="jage"></span><br/>
+</p>
+<script type="text/javascript">
+    var jsonObject = {
+        "name":"what?",
+        "age" : 50
+    };
+    document.getElementById("jname").innerHTML = jsonObject.name;
+    document.getElementById("jage").innerHTML = jsonObject.age;
+</script>
+</body>
+</html>
